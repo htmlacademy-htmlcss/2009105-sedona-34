@@ -288,10 +288,6 @@ border-radius: 4px;
   color: black;
   text-decoration: none;
 }
-/* .footer-phone:visited,
-.footer-link:visited
-{  color: rgba(117, 97, 87, 0.3);
-} */
 .footer-phone:hover,
 .footer-link:hover,
 .footer-phone:focus,
@@ -402,13 +398,6 @@ background-position: center;
   padding: 80px 85px;
 }
 
-/* .advantages-city:nth-child(1) {
-  background-image: url("../images/housing.svg");
-  background-repeat: no-repeat;
-  background-size: 70px 70px;
-  background-position: center right 10px;
-} */
-
 .advantages-info {
   font-size: 30px;
   font-weight: 700;
@@ -461,23 +450,19 @@ background-position: center;
 
 .inner-header {
   padding: 35px 70px 70px;
-  /* text-align: left; */
 }
 
 .filter-container {
   display: flex;
-  /* justify-content: space-between; */
   align-items: flex-start;
   margin: 0;
   padding: 0;
-  /* text-align: left; */
 }
 
 .infrastructure {
   width: 150.43px;
   height: 149px;
   margin-right: 70px;
-  /* margin-left: 70px; */
 }
 
 .type-housing {
@@ -491,7 +476,6 @@ background-position: center;
   width: 1056px;
   align-items: center;
   margin-top: 30px;
-   /* 71px 25px 73px; */ */
   padding: 0;
 }
 
@@ -544,11 +528,8 @@ background-position: center;
 }
 .results-container {
   display: flex;
-  /* width: 1057px; */
-  /* margin: 50px 71px 50px 73px; */
   padding: 0;
   align-items: center;
-  /* text-align: left; */
 }
 .current-sort{
   border: 2px solid #000000;
@@ -640,7 +621,6 @@ border-radius: 4px;
   grid-template-columns: 1fr 1fr 1fr;
   text-align: left;
   gap: 18px;
-  /* margin: 0 71px 0 73px; */
   padding: 0;
   list-style-type: none;
 }
@@ -694,7 +674,6 @@ dd {
 
 .breadcrumbs-item {
   font-size: 16px;
-  /* text-align: left; */
   margin-right: 25px;
   margin-bottom: 40px;
 }
