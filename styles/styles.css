@@ -103,21 +103,17 @@ h1 {
 .button-green:hover,
 .button-green:focus{
   background-color: #6C9E42;
-  /* border-color: #615048; */
 }
 .button-brown:hover,
 .button-brown:focus{
   background-color: #615048;
-  /* border-color: #615048; */
 }
 .button-brown:active,
 .button-blue:active,
 .button-green:active
 {
-  /* border-color: #756157; */
   color: rgba(255, 255, 255, 0.3);
 }
-
 
 .sorting-container {
   display: flex;
@@ -248,11 +244,8 @@ border-radius: 4px;
 }
 .navigation-favorite::before {
   position: absolute;
-  /* bottom: -40px;
-      left: 50%; */
   width: 20px;
   height: 20px;
-  /* margin-left: -9px; */
   background-color: #7DB54F;
   color: white;
   font-size: 10px;
