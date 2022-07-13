@@ -43,6 +43,8 @@ body {
   border-radius: 4px;
   padding: 9px 15px 8px;
   cursor: pointer;
+  text-decoration: none;
+  font-style: normal;
 }
 
 .main-header {
@@ -187,7 +189,7 @@ body {
   font-weight: 700;
   line-height: 36px;
   text-transform: uppercase;
-  margin:0;
+  margin: 0;
   margin-bottom: 31px;
 }
 
@@ -218,12 +220,12 @@ body {
   position: absolute;
   width: 130px;
   margin-left: 70px;
-  
-  
+
+
 }
 
 .navigation-list {
-  
+
   width: 390px;
   display: flex;
   flex-wrap: wrap;
@@ -838,6 +840,9 @@ body {
   background-color: #82B3D3;
   border-radius: 4px;
   border: 1px solid #82B3D3;
+  text-decoration: none;
+  font-style: normal;
+  cursor: pointer;
 }
 
 .pagination-item {
@@ -881,7 +886,7 @@ body {
   font-weight: 700;
   line-height: 36px;
   text-transform: uppercase;
-  margin:0;
+  margin: 0;
   margin-bottom: 30px;
 }
 
@@ -898,7 +903,7 @@ body {
   text-transform: uppercase;
   text-align: left;
   min-width: 390px;
-  margin:0;
+  margin: 0;
   margin-right: 140px;
 }
 
@@ -924,9 +929,14 @@ body {
 
 .newsletter-form .field {
   width: 600px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
   padding: 20px 19px 19px 22px;
   border-radius: 10px 0px 0px 10px;
   border: none;
+  box-sizing: border-box;
 
 }
 
@@ -943,6 +953,7 @@ body {
   border-radius: 0px 10px 10px 0px;
   padding: 12px 15px;
   border: none;
+  width: 200px;
 
 }
 
@@ -960,11 +971,16 @@ body {
   box-sizing: border-box;
 }
 
-.hotel-price-value{
+.hotel-price-value {
   margin: 0;
 }
 
 .hotels {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+  margin: 0;
   margin-bottom: 10px;
 }
 
@@ -1004,6 +1020,9 @@ body {
 
 .hotel-card-link {
   padding: 0 20px;
+  text-decoration: none;
+  font-style: normal;
+  cursor: pointer;
 }
 
 .hotel-name {
@@ -1068,11 +1087,18 @@ body {
   margin-bottom: 40px;
   padding: 0;
   list-style-type: none;
+
 }
 
 .breadcrumbs-link-img {
   fill: white;
   margin-right: 10px;
+}
+
+.breadcrumbs-link {
+  text-decoration: none;
+  font-style: normal;
+  cursor: pointer;
 }
 
 .breadcrumbs-link-arrow {
@@ -1220,6 +1246,7 @@ breadcrumbs-link:active {
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
+  text-align: left;
 }
 
 input.search-form-field {
@@ -1239,20 +1266,40 @@ input.search-form-field {
 }
 
 .search-form .field-group {
+  text-align: left;
   margin: 0;
-  margin-bottom: 16px;
+  margin-bottom: 40px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
 }
 
 
 .field-group.count-people {
+
   display: flex;
-  margin:0;
+  margin: 0;
+  margin-bottom: 40px;
   padding: 0;
   justify-content: space-between;
-  font-weight: 400;
+
 }
 
 .search-form-button {
   width: 575px;
 
+}
+
+.input-children {
+  margin-left: 43px;
+}
+
+.button-count {
+  width: 133px;
+  background: #F2F2F2;
+  border-radius: 4px;
+  padding: 15px 55px;
+  box-sizing: border-box;
+  margin-left: 64px;
 }
