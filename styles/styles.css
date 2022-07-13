@@ -40,7 +40,6 @@ a {
   cursor: pointer;
 }
 
-button,
 .button {
   font-size: 16px;
   font-weight: 700;
@@ -52,7 +51,7 @@ button,
   cursor: pointer;
 }
 
-h1 {
+.main-header {
   font-weight: 700;
   font-size: 60px;
   line-height: 78px;
@@ -948,7 +947,7 @@ h2 {
   margin: 0;
 }
 
-dd {
+.hotel-price-value{
   margin: 0;
 }
 
@@ -1155,7 +1154,7 @@ breadcrumbs-link:active {
 }
 
 .modal-container-close {
-  /* display: none; */
+  display: none;
 }
 
 .modal-content {
@@ -1170,9 +1169,6 @@ breadcrumbs-link:active {
 }
 
 .modal-search {
-  /* display: grid;
-  grid-template-columns: 155px min-content;
-  grid-template-rows: repeat(4) 70px; */
   width: 715px;
   box-sizing: border-box;
   background: white;
