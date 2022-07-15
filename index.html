@@ -209,32 +209,62 @@
   <div class="modal-container modal-container-close">
     <div class="modal modal-search">
       <section class="modal-content">
-        <button class="button modal-close-button">
-          <span class="visually-hidden">Закрыть</span>
+         <button class="button visually-hidden">
+           <span class="visually-hidden">Закрыть</span>
         </button>
+        <svg class="modal-close-button" width="13" height="13" viewBox="0 0 13 13" fill="currentcolor" xmlns="http://www.w3.org/2000/svg"><path d="M13 1.2 11.8 0 6.5 5.3 1.2 0 0 1.2l5.3 5.3L0 11.8 1.2 13l5.3-5.3 5.3 5.3 1.2-1.2-5.3-5.3L13 1.2Z"/></svg>
+         
         <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
         <form class="search-form" action="https://echo.htmlacademy.ru/" method="post">
           <p class="field-group">
             <label class="label-form" for="date-begin">Дата Заезда:</label>
             <input class="search-form-field field" type="text" id="date-begin" name="date-begin"
               placeholder="dd.mm.yyyy">
+              <span class="back-date-attention">Мы не можем отправить вас в прошлое.</span>
           </p>
+          
           <p class="field-group">
             <label class="label-form" for="date-end">Дата Выезда:</label>
             <input class="search-form-field field" type="text" id="date-end" name="date-end" placeholder="dd.mm.yyyy">
+            <span class="extra-information">На эти даты есть свободные номера. Пока есть.</span>
           </p>
 
           <div class="field-group count-people">
+
             <label class="search-form-control" for="count-adults">Взрослые:</label>
-            <input class="visually-hidden search-form-input" type="number" value="2" name="count-adults"
-              id="count-adults">
-            <span class="button-count">2</span>
-            <span class="tultip">
-              <label class="search-form-control" for="count-children">Дети:</label>
-            </span>
-            <input class="visually-hidden search-form-input input-children" id="count-children" type="number" value="1"
-              name="count-children">
-            <span class="button-count">1</span>
+            <div class="button-count-adult">2
+              <svg class="modal-minus" width="13" height="1" viewBox="0 0 13 1" fill="currentcolor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0v1h13V0H0Z" />
+              </svg>
+              <input class="visually-hidden search-form-input" type="number" value="2" name="count-adults"
+                id="count-adults">
+              <svg class="modal-plus" width="13" height="13" viewBox="0 0 13 13" fill="currentcolor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M13 6H7V0H6v6H0v1h6v6h1V7h6V6Z" />
+              </svg>
+            </div>
+            <label class="search-form-control" for="count-children">Дети:
+              <span class="tooltip">
+                <button class="tooltip-toggle" type="button" aria-labelledby ="tooltip-label">
+                  <svg class="tooltip-icon" width="1" height="9" viewBox="0 0 1 9" fill="currentcolor" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#a)"><path d="M0 9h1V3H0v6ZM1 0H0v1h1V0Z"/></g><defs><clipPath id="a"><path d="M0 0h1v9H0z"/></clipPath></defs></svg>
+                </button>
+                <span class="tooltip-text" role="tooltip" id="tooltip-label">
+                              Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</span>
+              </span>
+            </label>
+            <div class="button-count-children">1
+              <svg class="modal-minus" width="13" height="1" viewBox="0 0 13 1" fill="currentcolor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0v1h13V0H0Z" />
+              </svg>
+              <input class="visually-hidden search-form-input input-children" id="count-children" type="number"
+                value="1" name="count-children">
+              <svg class="modal-plus" width="13" height="13" viewBox="0 0 13 13" fill="currentcolor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M13 6H7V0H6v6H0v1h6v6h1V7h6V6Z" />
+              </svg>
+            </div>
           </div>
           <button class="button search-form-button button-blue" type="submit">Найти</button>
         </form>
